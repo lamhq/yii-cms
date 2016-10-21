@@ -1,6 +1,6 @@
 <?php
 
-class CommentController extends BaseController
+class CommentController extends Controller
 {
 	public $layout='column2';
 

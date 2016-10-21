@@ -1,6 +1,6 @@
 <?php
 
-class PostController extends BaseController
+class PostController extends Controller
 {
 	public $layout='column2';
 

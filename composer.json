@@ -9,7 +9,7 @@
 	},
 	"extra": {
 		"asset-installer-paths": {
-			"bower-asset-library": "vendor"
+			"bower-asset-library": "vendor/bower"
 		}
 	},
 	"name": "lamhq/yii1-cms",
