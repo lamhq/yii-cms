@@ -6,7 +6,7 @@ $config=dirname(__FILE__).'/protected/config/main.php';
 
 // remove the following line when in production mode
 defined('YII_DEBUG') or define('YII_DEBUG',true);
-define('VENDOR_DIR',__DIR__ . '/vendor/');
+define('VENDOR_PATH',__DIR__ . '/vendor');
 
 require(__DIR__ . '/vendor/autoload.php');
 require_once($yii);
