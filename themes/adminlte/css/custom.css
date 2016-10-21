@@ -1,0 +1,58 @@
+/*
+ * Form
+ */
+.errorMessage, span.required {
+	color: red;
+}
+
+.tree-checkbox.form-control {
+	height: auto;
+}
+
+
+/*
+ * Top menu dropdown
+ */
+.navbar-nav > .normal-menu > .dropdown-menu > li a {
+	color: #444 !important;
+}
+
+.navbar-nav > .normal-menu > .dropdown-menu > li a:hover {
+	color: #fff !important;
+}
+
+
+/*
+ * Grid view
+ */
+.grid-view .summary {
+	margin-bottom: 10px;
+}
+
+.grid-view tr.selected  td {
+	background-color: #d9edf7;
+}
+
+.grid-view-loading { background: none; } 
+.grid-view-loading:before { 
+	content: "\f110"; 
+	display: inline-block; 
+	font-family: FontAwesome; 
+	font-feature-settings: normal; 
+	font-kerning: auto; 
+	font-language-override: normal; 
+	font-size: 2em; 
+	font-size-adjust: none; 
+	font-stretch: normal; 
+	font-style: normal; 
+	font-synthesis: weight style; 
+	font-variant: normal; 
+	font-weight: normal; 
+	line-height: 1; 
+	text-align: center; 
+	width: 100%; 
+	position: absolute;
+	padding: 15px 0; 
+	-webkit-animation: fa-spin 1s infinite steps(8); 
+	animation: fa-spin 1s infinite steps(8); 
+}

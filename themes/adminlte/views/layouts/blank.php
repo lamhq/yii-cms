@@ -1,0 +1,1 @@
+<?php/* @var $this BackendController */?><!DOCTYPE html><html><?php $this->renderPartial('//layouts/_head') ?><body class="hold-transition skin-purple <?= $this->bodyClass ?>">	<?= $content ?></body></html>
